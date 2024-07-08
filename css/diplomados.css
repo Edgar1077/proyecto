@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+#identificador {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: black;
+    text-shadow:
+    1px 0 0 white,    
+    -1px 0 0 white,   
+    0 1px 0 white,    
+    0 -1px 0 white;   
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.gestion, .marketing, .Pedagogía, .Finanzas, .desarrollo, .derecho, .salud, .tecnología, .psicologia, .Innovación {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    animation: fadeIn 10s forwards;
+}
+.gestion {
+    animation-delay: 0s;
+}
+.marketing {
+    animation-delay: 0.2s;
+}
+.Pedagogía {
+    animation-delay: 0.4s;
+}
+.Finanzas {
+    animation-delay: 0.6s;
+}
+.desarrollo {
+    animation-delay: 0.8s;
+}
+.derecho {
+    animation-delay: 1s;
+}
+.salud {
+    animation-delay: 1.2s;
+}
+.tecnología {
+    animation-delay: 1.4s;
+}
+.psicologia {
+    animation-delay: 1.6s;
+}
+.Innovación {
+    animation-delay: 1.8s;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

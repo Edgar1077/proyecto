@@ -1,0 +1,181 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    color: #333;
+}
+#universidad {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: black;
+    text-shadow:
+    1px 0 0 white,    
+    -1px 0 0 white,   
+    0 1px 0 white,    
+    0 -1px 0 white;   
+}
+.contenedor {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+.contenedor img {
+    max-width: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+.contenedor h1 {
+    color: #2c3e50;
+    font-size: 2em;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+.contenedor h2 {
+    color: #3498db;
+    font-size: 1.5em;
+    margin: 20px 0 10px;
+}
+.contenedor p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+.contenedor ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.contenedor li {
+    font-size: 1.1em;
+    margin: 5px 0;
+    line-height: 1.6;
+    color: #2c3e50;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.contenedor:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+#contenido-ingenieria {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+
+}
+
+.contenido-ingenieria img {
+    max-width: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+.contenido-ingenieria h1 {
+    color: #2c3e50;
+    font-size: 2em;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+.contenido-ingenieria h2 {
+    color: aquamarine;
+    font-size: 1.5em;
+    margin: 20px 0 10px;
+}
+.contenido-ingenieria p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+.contenido-ingenieria ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.contenido-ingenieria li {
+    font-size: 1.1em;
+    margin: 5px 0;
+    line-height: 1.6;
+    color: #2c3e50;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.contenido-ingenieria:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+#contenido-arquitectura {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+.contenido-arquitectura img {
+    max-width: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+.contenido-arquitectura h1 {
+    color: #2c3e50;
+    font-size: 2em;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+}
+.contenido-arquitectura h2 {
+    color: #3498db;
+    font-size: 1.5em;
+    margin: 20px 0 10px;
+}
+.contenido-arquitectura p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+.contenido-arquitectura ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.contenido-arquitectura li {
+    font-size: 1.1em;
+    margin: 5px 0;
+    line-height: 1.6;
+    color: #2c3e50;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.contenido-arquitectura:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+
+

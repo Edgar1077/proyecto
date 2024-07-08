@@ -1,0 +1,47 @@
+body {
+    background-color: linen;
+}
+
+#campus {
+    font-family: sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  color: black;
+  text-shadow:
+    1px 0 0 white,    /* Desplaza a la derecha */
+    -1px 0 0 white,   /* Desplaza a la izquierda */
+    0 1px 0 white,    /* Desplaza abajo */
+    0 -1px 0 white;   /* Desplaza arriba */
+}
+
+/* Estilo para el contenedor principal */
+div {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos de forma equitativa */
+    align-items: flex-start; /* Alinea los elementos en la parte superior del contenedor */
+    margin-bottom: 20px; /* Espacio inferior entre cada sección */
+}
+
+/* Estilo para cada figura */
+figure {
+    display: flex;
+    flex-direction: column; /* Establece el contenido en columna */
+    align-items: center; /* Centra horizontalmente los elementos */
+    text-align: center; /* Alinea el texto al centro */
+    width: 25%; /* Ajusta el ancho de cada figura */
+    margin: 0 auto; /* Centra cada figura horizontalmente */
+}
+
+/* Estilo para las imágenes */
+img {
+    background-color: white; /* Fondo blanco detrás de cada imagen */
+    padding: 10px; /* Espacio alrededor de la imagen */
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+}
+
+/* Estilo para las descripciones */
+figcaption, p {
+    margin-top: 10px; /* Espacio entre la imagen y el texto */
+    text-align: center; /* Alineación del texto al centro */
+    width: 100%; /* Ajusta el ancho del texto */
+}
